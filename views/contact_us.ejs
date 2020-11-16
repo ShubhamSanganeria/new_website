@@ -1,0 +1,104 @@
+<%- include('header') %>
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="/">Back</a></li>
+</ul>
+</div>
+</nav>
+<body>
+<body>
+
+<section id="contact" class="contact section-bg">
+    <div class="container-fluid">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <h3>Get In Touch With <span>Us</span></h3>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xs-15">
+          <div class="row">
+
+            <div class="col-xs-6">
+
+              <div class="row justify-content-center">
+
+                <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <i class="bx bx-map"></i>
+                  <h4>Address</h4>
+                  <p>A108 Adam Street,<br>New York, NY 535022</p>
+                </div>
+                <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <i class="bx bx-phone"></i>
+                  <h4>Call Us</h4>
+                  <p>+91 9449623550<br>N Nikhil Jain- Secretary</p>
+                </div>
+                <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <i class="bx bx-envelope"></i>
+                  <h4>Email Us</h4>
+                  <p>maxi@xlri.ac.in</p>
+                </div>
+                <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                  <i class="bx bx-time-five"></i>
+                  <h4>Visit US</h4>
+                  <p><a href="https://www.facebook.com/maxi.at.xlri">Facebook   <i  class="fab fa-lg fa-facebook" aria-hidden="true"></i></a><br>
+                    <a href="https://www.instagram.com/maxi.xlri">Instagram <i  class="fab fa-instagram" aria-hidden="true"></i></a></p>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-xs-6">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-row">
+                  <div class="col-md-6 form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="vendor/php-email-form/validate.js"></script>
+<script src="vendor/venobox/venobox.min.js"></script>
+<script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="vendor/counterup/counterup.min.js"></script>
+<script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+
+</body>
+</html>
