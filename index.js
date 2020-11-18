@@ -42,6 +42,11 @@ app.get('/kids-fashion-show.ejs',function(req,res){
 app.get('/contact_us',function(req,res){
   res.render('contact_us');
 });
+
+app.get('/games',function(req,res){
+  res.render('games');
+});
+
 app.listen(3000,function(){
   console.log('Server started ')
 });
